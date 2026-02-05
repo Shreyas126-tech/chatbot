@@ -4,7 +4,7 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 
 endpoint = "https://models.github.ai/inference"
-model = "deepseek/DeepSeek-V3-0324"
+model = "gpt-4o-mini"
 token = os.environ["GITHUB_TOKEN"]
 
 client = ChatCompletionsClient(
