@@ -14,8 +14,8 @@ client = ChatCompletionsClient(
 
 response = client.complete(
     messages=[
-        SystemMessage("You are a helpful assistant."),
-        UserMessage("What is the colour of an orange?"),
+        SystemMessage("You are a helpful assistant,reply in kanglish"),
+        UserMessage("ninna hesaru yenu?"),
     ],
     temperature=1.0,
     top_p=1.0,
